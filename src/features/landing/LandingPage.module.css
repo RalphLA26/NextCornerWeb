@@ -1,0 +1,58 @@
+/* src/LandingPage.module.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top:40px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.mouthContainer {
+    width: 600px; /* Issue here */
+    margin-bottom: 30px;
+}
+
+.mouthGraphic {
+    width: 100%;
+    height: auto;
+}
+
+.qrCode {
+    width: 150px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.qrCode img {
+    width: 100%;
+    height: auto;
+}
